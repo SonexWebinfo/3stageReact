@@ -1,0 +1,109 @@
+[
+    {
+        "items": [
+            {
+                "text": "Dashboard",
+                "icon": "bx bx-home",
+                "available": true,
+                "link": "/dashboard"
+            }
+        ]
+    },
+    {
+        "header": "Master",
+        "items": [
+            {
+                "text": "Master Module",
+                "icon": "bx bx-dock-top",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Fabric",
+                        "available": true,
+                        "link": "/fabric/fabric-master"
+                    },
+                    {
+                        "text": "Design",
+                        "available": true,
+                        "link": "/design/design-master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "items": [
+            {
+                "text": "Rate Calculator",
+                "icon": "bx bx-calculator",
+                "available": true,
+                "link": "/sales/rate-calculator"
+            }
+        ]
+    },
+    {
+        "items": [
+            {
+                "text": "CMS",
+                "icon": "bx bx-dock-top",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Agent",
+                        "available": true,
+                        "link": "/cms/agent-master"
+                    },
+                    {
+                        "text": "Customer",
+                        "available": true,
+                        "link": "/cms/customer-master"
+                    },
+                    {
+                        "text": "Job Work",
+                        "available": true,
+                        "link": "/cms/job-work-master"
+                    },
+                    {
+                        "text": "Supplier",
+                        "available": true,
+                        "link": "/cms/supplier-master"
+                    },
+                    {
+                        "text": "Transport",
+                        "available": true,
+                        "link": "/cms/transport-master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "items": [
+            {
+                "text": "Purchase Order",
+                "icon": "bx bx-dock-top",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "In-Ward",
+                        "available": true,
+                        "link": "/purchase/in-ward"
+                    },
+                    {
+                        "text": "Purchase Order",
+                        "available": true,
+                        "link": "/purchase/purchase-order"
+                    },
+                    {
+                        "text": "Purchase Return",
+                        "available": true,
+                        "link": "/purchase/purchase-return"
+                    }
+                ]
+            }
+        ]
+    }
+]
