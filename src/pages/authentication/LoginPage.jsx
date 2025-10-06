@@ -1,4 +1,4 @@
-import { useState, useRef, useLayoutEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./page-auth.css";
 import { api } from "../../services/api";
@@ -21,7 +21,7 @@ export const LoginPage = () => {
   const emailRef = useRef(null);
 
   // 🔑 new: focus input before paint (no flicker)
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (emailRef.current) {
       emailRef.current.focus();
     }
@@ -88,7 +88,7 @@ export const LoginPage = () => {
           </label>
           <input
             type="text"
-            ref={emailRef}  // 👈 linked with useLayoutEffect
+            ref={emailRef}  
             className="form-control"
             id="email"
             value={formData.email}
